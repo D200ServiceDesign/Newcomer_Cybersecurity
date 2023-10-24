@@ -154,7 +154,6 @@ header {
 
 .main-content{
   margin-top: 100px;
-  padding: 60px 0px 0px 0px;
   background-color: #fff;
   border-radius: 40px;
   overflow: hidden;
@@ -322,8 +321,12 @@ section .wfh-img-box img{
   align-items: center;
   gap: 2em;
   border-bottom: dashed 1px #989898;
-
 }
+.check-container .singed-txt{
+  color: var(--primery);
+  font-size: 18px;
+}
+
 .large-title{
   color: var(--primery, #0E488D);
   text-align: center;
@@ -345,6 +348,7 @@ section .wfh-img-box img{
 display: flex;
 flex-direction: column;
 align-items: center;
+margin-bottom: 60px;
 }
 .confidential-list{
   display: flex;
