@@ -176,7 +176,7 @@ margin-bottom: 0px;
 }
 
 .page-title-content .sub-title{
-  color: #5DC7EE;
+  color: #72c4e1;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
@@ -314,7 +314,7 @@ section .wfh-img-box img{
 }
 .check-container{
   padding: 40px;
-  background-color: var(--light-blue);
+  background-color: #eafdff;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -323,8 +323,10 @@ section .wfh-img-box img{
   border-bottom: dashed 1px #989898;
 }
 .check-container .singed-txt{
-  color: var(--primery);
-  font-size: 18px;
+  color: var(--orange);
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .large-title{
