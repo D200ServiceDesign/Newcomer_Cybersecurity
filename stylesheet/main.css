@@ -173,14 +173,15 @@ font-weight: 700;
 line-height: 150%;
 letter-spacing: 3px;
 margin-bottom: 0px;
+font-size: 36px; 
 }
 
 .page-title-content .sub-title{
   color: #72c4e1;
-  font-size: 15px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 1.4px;
+  letter-spacing: 2px;
   background: #F3FBFF;
 }
 .page-title-content p{
