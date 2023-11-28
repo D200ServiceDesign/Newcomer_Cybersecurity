@@ -178,14 +178,15 @@ font-size: 36px;
 
 .page-title-content .sub-title{
   color: #72c4e1;
-  font-size: 20px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 2.8px;
   background: #F3FBFF;
+  margin-bottom: 20px;
 }
 .page-title-content p{
-  font-size: 16px;
+  font-size: 18px;
 font-style: normal;
 font-weight: 700;
 line-height: 150%; /* 24px */
@@ -246,10 +247,15 @@ section table{
 section th{
   background-color:var(--orange);
   color: #fff;
-  padding: 6px 0px;
+
+
 }
 section td{
   padding: 6px 0px;
+
+}
+section tr{
+  border: solid 1px #c1c1c1;
 
 }
 section table .heightline{
@@ -274,7 +280,7 @@ section .wfh-img-box img{
 }
 .safety-card{
   background-color: #fff;
-  padding: 20px;
+  padding: 12px 10px;
 }
 .safety-card-title{
   font-weight: 500;

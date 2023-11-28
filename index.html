@@ -31,11 +31,11 @@
           <div class="page-title-content">
             <div>
               <h1>新進人員(工讀生/實習生)資訊安全認知</h1>
-              <span class="sub-title">Information Security Training for New Part-time Employees </span>
-
-              <p>請工讀生與實習生於新進報到時簽署此份新進人員資訊安全認知，即完成新人資安訓練。<br> 
-                此份新進人員資訊安全認知專屬C02人員類別瀏覽與簽署，其餘人員類別無法瀏覽此頁面。 </p>
-              </div>   
+              <span class="sub-title">Information Security Awareness for New Intern
+              </span>
+              <p>請工讀生與實習生於新進報到時，閱讀並簽署此份新進人員資訊安全認知，<br>以確認已完成新人資安訓練
+              </p>
+            </div>   
           </div>             
         </div>
         <div class="col-md-4">
@@ -50,7 +50,7 @@
     <h3 class="small-title">（一） 本院電腦與網路使用行為準則 </h3>
 
     <ul class="">
-      <li>須依規定安裝資安防護軟體( Apex One終端病毒防護、IBM BigFix 軟體資產清查、NAC 連網防護)。</li>
+      <li>須依規定安裝資安防護軟體(網路控管 ForeScout agent、軟體清查 HCL bigfix agent、防毒軟體 TrendMicro Apex One)。</li>
       <li>僅能使用合法授權軟體並須簽署「 <a href="https://itriap6.itri.org.tw/lswagree/lswagreement.aspx" target="_blank">本院使用合法軟體承諾書</a>」。</li>
       <li> 不可私自增設網路設備。已連接本院電腦網路的電腦，不可再透過數據機、數據專線或其他方式連接至院外其他網路與資訊設備。</li>
       <li>若違反法令法規或本院之電腦與網路使用行為準則，須自負法律責任與損害賠償責任。</li>
@@ -80,9 +80,10 @@
             <h4 class="safety-card-title"> <img src="./images/icon/wifi.svg" alt=""> 網路使用行為</h4>
             <ul>
               <li>遵守網路使用基本原則</li>
-              <li class="heightline">不可私設網路設備</li>
-              <li class="heightline">不可並接院外網路</li>
-              <li>不可網路刺探、監聽</li>
+              <li> <span class="heightline">不可跨接院外網路:</span> 已連接本院電腦網路的電腦，不可再透過數據機、數據專線或其他方式連接至院外其他網路與資訊設備
+              </li>
+              <li> <span class="heightline">不可網路監聽:</span> 不可透過攔截技術，擷取他人密碼或網路傳遞資料</li>
+              <li> <span class="heightline">不可網路刺探:</span> 不可使用任何手法蒐集關於本院或其他組織之網站、主機、網路、資安防護等機制相關資料</li>
               <li>不可傳送張貼違反公共秩序、善良風俗資料</li>
               <li>不可擅改資訊設備 IP & Mac 位址</li>
               <li>不可規避使用紀錄查核</li>
@@ -149,36 +150,48 @@
               <li>本院進行中的重大客訴及糾紛訴訟文件。</li>
               <li>基於各業務特殊性質而有保密必要者。</li>
               <li>全院性經營管理類機密資訊。</li>
-              <li>其他為確保本院權益而有保密之必要者，自行擬定機密等級、保密期限或解密條件，由權責主管核定。</li>
+              <li>其它為確保本院權益而有保密之必要的資訊。</li>
             </ol>
 
           </li>
       </ul>
       <h3 class="small-title">（二） 機密資訊之分級</h3>
-      <table>
+      <table >
         <tr>
-          <th style="text-align: center; width: 15%;">分級</th>
-          <th style="width: 50%;">研判原則</th>
-          <th style="text-align: center;">保密期限</th>
-          <th>核定權責</th>
+          <th style="text-align: center; width: 10%;" rowspan="2">分級</th>
+          <th style="width: 35%;" rowspan="2">研判原則</th>
+          <th style="text-align: center;" rowspan="2">保密期限</th>
+          <th style="text-align: center;" rowspan="2">機密等級核定權責</th>
+          <th style="text-align: center; width: 35%;" colspan="2">流通核定權責</th>
+         
+        </tr>
+        <tr>
+          <th style="text-align: center;background-color: #f39a47;border-right:solid 1px #c1c1c1;">院內</th>
+          <th style="text-align: center;background-color: #f39a47;">院外</th>
         </tr>
         <tr>
           <td class="heightline">極機密</td>
           <td>不當揭露，會嚴重影響本院聲譽、經營管理及競爭力</td>
           <td style="text-align: center;">10年</td>
           <td>單位主管</td>
+          <td>申請與產出單位主管</td>
+          <td>院長室權責主管轉呈院長核定</td>
         </tr>
         <tr>
           <td class="heightline">機密</td>
           <td>不當揭露，會影響本院聲譽、經營管理及競爭力</td>
           <td style="text-align: center;">5年</td>
           <td>直屬一級主管</td>
+          <td>申請與產出單位直屬一級主管</td>
+          <td>申請與產出單位主管</td>
         </tr>
         <tr>
           <td class="heightline">限閱</td>
           <td>不當揭露，可能會引起本院不必要的困擾</td>
           <td style="text-align: center;">3年</td>
           <td>直屬二級主管</td>
+          <td>申請與產出單位直屬二級主管</td>
+          <td>申請與產出單位直屬一級主管</td>
         </tr>
       </table>
       <h3 class="small-title">（三）機密資訊標示 </h3>
