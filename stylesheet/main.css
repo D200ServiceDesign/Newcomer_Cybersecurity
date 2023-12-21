@@ -239,6 +239,10 @@ section .text-content{
 section ul li{
   line-height: 160%;
 }
+section .table-box{
+  width: 100%;
+ overflow-y: auto;
+}
 section table{
   width: 100%;
   border-bottom: solid 3px var(--orange) ;
@@ -251,7 +255,7 @@ section th{
 
 }
 section td{
-  padding: 6px 0px;
+  padding: 6px 4px;
 
 }
 section tr{
@@ -374,10 +378,29 @@ margin-bottom: 60px;
   width: 160px;
   padding-left: 16px;
 }
+.confidential-title-en{
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: var(--orange);
+  width: 240px;
+  padding-left: 8px;
+}
+
+.confidential-title-en p{
+  margin: 0 0 0 8px;
+
+}
 @media only screen and (max-width: 768px) {
   .confidential-title{
     position: absolute;
     width: 110px;
+    padding: 4px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .confidential-title-en{
+    position: absolute;
+    width: 200px;
     padding: 4px;
     border-radius: 8px 8px 0px 0px;
   }
